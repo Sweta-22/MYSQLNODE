@@ -1,0 +1,19 @@
+{
+  "name": "mysqlnode",
+  "version": "1.0.0",
+  "description": "database connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "nodemon"
+  },
+  "author": "sweta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2"
+  }
+}
